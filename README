@@ -1,0 +1,11 @@
+mpdg15 is a simple Music Player Daemon frontend for G15Daemon, and is
+written completely in python. It includes also custom-made g15 drawing
+library, since i didn't like the available "official" one.
+
+Dependencies:
+	python2				-	of course, it is written in python
+	python-mpd			-	these are the uesd mpd bindings
+	python-bitarray		-	used heavily for drawing operations
+	python-pyalsaaudio	-	system main volume is fetched with this
+	python-daemon		-	daemonatization is done with this
+
